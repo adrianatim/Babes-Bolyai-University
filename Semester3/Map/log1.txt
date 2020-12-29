@@ -1,0 +1,4043 @@
+---------------------------
+Id 1
+ExeStack
+(Type int v;(v= 2;print(v)))
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+(v= 2;print(v))
+Type int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+(v= 2;print(v))
+Type int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+(v= 2;print(v))
+
+SymTable
+v ->  0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+(v= 2;print(v))
+
+SymTable
+v ->  0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v= 2
+
+SymTable
+v ->  0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v= 2
+
+SymTable
+v ->  0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v ->  2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v ->  2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v ->  2
+
+Out
+ 2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 3
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 3
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 5
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 5
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 9
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 9
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 11
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 11
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 13
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 13
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 15
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 15
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 17
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 17
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 3
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 3
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 5
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 5
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 3
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 3
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 3
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 3
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 4
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 4
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+
+---------------------------
+Id 1
+ExeStack
+int v; v=2; print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+int v
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+v=2; print(v)
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+v=2
+
+SymTable
+v -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(v)
+
+SymTable
+v -> 2
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+v -> 2
+
+Out
+2
+

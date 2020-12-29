@@ -1,0 +1,51 @@
+ExeStack
+(v= 2;print(v))
+Type int v
+
+SymTable
+
+Out
+
+FileTable
+example.txt
+ExeStack
+(v= 2;print(v))
+
+SymTable
+Key: v, Value: 0
+
+Out
+
+FileTable
+example.txt
+ExeStack
+print(v)
+v= 2
+
+SymTable
+Key: v, Value: 0
+
+Out
+
+FileTable
+example.txt
+ExeStack
+print(v)
+
+SymTable
+Key: v, Value: 2
+
+Out
+
+FileTable
+example.txt
+ExeStack
+
+SymTable
+Key: v, Value: 2
+
+Out
+ 2
+
+FileTable
+example.txt

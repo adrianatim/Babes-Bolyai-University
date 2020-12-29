@@ -1,0 +1,1381 @@
+---------------------------
+Id 2
+ExeStack
+(Type int a;(Type int b;(a= 2 + 3 * 5;(b=a + 1;print(b)))))
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(Type int b;(a= 2 + 3 * 5;(b=a + 1;print(b))))
+Type int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(Type int b;(a= 2 + 3 * 5;(b=a + 1;print(b))))
+Type int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(Type int b;(a= 2 + 3 * 5;(b=a + 1;print(b))))
+
+SymTable
+a ->  0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(Type int b;(a= 2 + 3 * 5;(b=a + 1;print(b))))
+
+SymTable
+a ->  0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(a= 2 + 3 * 5;(b=a + 1;print(b)))
+Type int b
+
+SymTable
+a ->  0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(a= 2 + 3 * 5;(b=a + 1;print(b)))
+Type int b
+
+SymTable
+a ->  0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(a= 2 + 3 * 5;(b=a + 1;print(b)))
+
+SymTable
+b ->  0
+a ->  0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(a= 2 + 3 * 5;(b=a + 1;print(b)))
+
+SymTable
+b ->  0
+a ->  0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(b=a + 1;print(b))
+a= 2 + 3 * 5
+
+SymTable
+b ->  0
+a ->  0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(b=a + 1;print(b))
+a= 2 + 3 * 5
+
+SymTable
+b ->  0
+a ->  0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(b=a + 1;print(b))
+
+SymTable
+b ->  0
+a ->  17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+(b=a + 1;print(b))
+
+SymTable
+b ->  0
+a ->  17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+b=a + 1
+
+SymTable
+b ->  0
+a ->  17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+b=a + 1
+
+SymTable
+b ->  0
+a ->  17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+
+SymTable
+b ->  18
+a ->  17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+
+SymTable
+b ->  18
+a ->  17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+
+SymTable
+b ->  18
+a ->  17
+
+Out
+ 18
+
+---------------------------
+Id 2
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+18
+
+---------------------------
+Id 2
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+18
+
+---------------------------
+Id 1
+ExeStack
+bool a; int v; a= true; IF(a) THEN(v=2) ELSE(v=3); print(v)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+18
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+18
+
+---------------------------
+Id 2
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 2
+ExeStack
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+18
+
+---------------------------
+Id 1
+ExeStack
+int a; int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+int a
+
+SymTable
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+int b; a=2+3*5; b=a+1; print(b)
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+int b
+
+SymTable
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+a=2+3*5; b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+a=2+3*5
+
+SymTable
+b -> 0
+a -> 0
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+b=a+1; print(b)
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+b=a+1
+
+SymTable
+b -> 0
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+print(b)
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+
+---------------------------
+Id 1
+ExeStack
+
+SymTable
+b -> 18
+a -> 17
+
+Out
+18
+

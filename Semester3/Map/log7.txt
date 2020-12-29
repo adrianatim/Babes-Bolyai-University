@@ -1,0 +1,289 @@
+ExeStack
+(new(v, 20);(print(rH(v));(wH(v, 30);print(rH(v) + 5))))
+Type Ref(int) v
+
+SymTable
+
+Out
+
+FileTable
+log7.txt
+ExeStack
+(new(v, 20);(print(rH(v));(wH(v, 30);print(rH(v) + 5))))
+
+SymTable
+v -> (0, int)
+
+Out
+
+FileTable
+log7.txt
+ExeStack
+(print(rH(v));(wH(v, 30);print(rH(v) + 5)))
+new(v, 20)
+
+SymTable
+v -> (0, int)
+
+Out
+
+FileTable
+log7.txt
+ExeStack
+(print(rH(v));(wH(v, 30);print(rH(v) + 5)))
+
+SymTable
+v -> (1, int)
+
+Out
+
+FileTable
+log7.txt
+ExeStack
+(wH(v, 30);print(rH(v) + 5))
+print(rH(v))
+
+SymTable
+v -> (1, int)
+
+Out
+
+FileTable
+log7.txt
+ExeStack
+(wH(v, 30);print(rH(v) + 5))
+
+SymTable
+v -> (1, int)
+
+Out
+ 20
+
+FileTable
+log7.txt
+ExeStack
+print(rH(v) + 5)
+wH(v, 30)
+
+SymTable
+v -> (1, int)
+
+Out
+ 20
+
+FileTable
+log7.txt
+ExeStack
+print(rH(v) + 5)
+
+SymTable
+v -> (1, int)
+
+Out
+ 20
+
+FileTable
+log7.txt
+ExeStack
+
+SymTable
+v -> (1, int)
+
+Out
+ 20
+ 35
+
+FileTable
+log7.txt
+---------------------------
+Id 7
+ExeStack
+Ref(int) v; new(v,20); print(rH(v)); wH(v,30); print(rH(v)+5)
+
+SymTable
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+new(v,20); print(rH(v)); wH(v,30); print(rH(v)+5)
+Ref(int) v
+
+SymTable
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+new(v,20); print(rH(v)); wH(v,30); print(rH(v)+5)
+Ref(int) v
+
+SymTable
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+new(v,20); print(rH(v)); wH(v,30); print(rH(v)+5)
+
+SymTable
+v -> (0, int)
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+new(v,20); print(rH(v)); wH(v,30); print(rH(v)+5)
+
+SymTable
+v -> (0, int)
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+print(rH(v)); wH(v,30); print(rH(v)+5)
+new(v,20)
+
+SymTable
+v -> (0, int)
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+print(rH(v)); wH(v,30); print(rH(v)+5)
+new(v,20)
+
+SymTable
+v -> (0, int)
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+print(rH(v)); wH(v,30); print(rH(v)+5)
+
+SymTable
+v -> (1, int)
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+print(rH(v)); wH(v,30); print(rH(v)+5)
+
+SymTable
+v -> (1, int)
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+wH(v,30); print(rH(v)+5)
+print(rH(v))
+
+SymTable
+v -> (1, int)
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+wH(v,30); print(rH(v)+5)
+print(rH(v))
+
+SymTable
+v -> (1, int)
+
+Out
+
+---------------------------
+Id 7
+ExeStack
+wH(v,30); print(rH(v)+5)
+
+SymTable
+v -> (1, int)
+
+Out
+20
+
+---------------------------
+Id 7
+ExeStack
+wH(v,30); print(rH(v)+5)
+
+SymTable
+v -> (1, int)
+
+Out
+20
+
+---------------------------
+Id 7
+ExeStack
+print(rH(v)+5)
+wH(v,30)
+
+SymTable
+v -> (1, int)
+
+Out
+20
+
+---------------------------
+Id 7
+ExeStack
+print(rH(v)+5)
+wH(v,30)
+
+SymTable
+v -> (1, int)
+
+Out
+20
+
+---------------------------
+Id 7
+ExeStack
+print(rH(v)+5)
+
+SymTable
+v -> (1, int)
+
+Out
+20
+
+---------------------------
+Id 7
+ExeStack
+print(rH(v)+5)
+
+SymTable
+v -> (1, int)
+
+Out
+20
+
+---------------------------
+Id 7
+ExeStack
+
+SymTable
+v -> (1, int)
+
+Out
+20
+35
+
