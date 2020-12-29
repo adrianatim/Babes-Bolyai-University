@@ -16,7 +16,9 @@
         </a>
       </li>
       <li>
-        <a herf="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester3/Map">:orange_book: Map</a>
+       <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester3/Map">
+          :orange_book: Map
+        </a>
       </li> 
     </ul>
   </li>
