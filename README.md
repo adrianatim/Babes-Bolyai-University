@@ -15,11 +15,6 @@
           :orange_book: Databases
         </a>
       </li>
-      <li>
-        <a herf="https://github.com/adrianatim/map">
-          :orange_book: Map
-        </a>
-      </li>
     </ul>
   </li>
 </ul>
