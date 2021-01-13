@@ -25,6 +25,11 @@
           :orange_book: Plf
         </a>
       </li>
+      <li>
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester3/Computer%20Networks">
+          :orange_book: ComputerNetworks
+        </a>
+      </li>
     </ul>
   </li>
 </ul>
