@@ -27,7 +27,12 @@
       </li>
       <li>
         <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester3/Computer%20Networks">
-          :orange_book: ComputerNetworks
+          :orange_book: Computer Networks
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester3/PS">
+          :orange_book: Probability and Statistics
         </a>
       </li>
     </ul>
