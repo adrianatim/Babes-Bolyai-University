@@ -42,7 +42,7 @@
   <li>:open_file_folder: Semester 4
      <ul>
       <li>
-        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester4/Databases">
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester4/DBMS">
           :green_book: Databases Management Studio
         </a>
        </li>
