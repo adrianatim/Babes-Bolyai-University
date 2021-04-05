@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+
+        #ball {
+            background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, darkblue 60%, aqua 100%);
+            display: block;
+            width: 50px;
+            height: 50px;
+            margin: 50px auto 0;
+            border-radius: 50%;
+           }
+
+        #ball:hover{
+            animation: moveToBottom 2s forwards,
+                       bounce 1s 2s forwards;
+            animation-delay: 100ms;   
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes moveToBottom{
+            0%{
+                transform: translateX(0px);
+            }
+            100%{
+                transform: translateY(800px);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(800px); }
+            40% { transform: translateY(700px); }
+            60% { transform: translateY(720px); }
+        }
+
+    </style>
+<body>
+    <div id="ball"></div>
+</body>
+</html>

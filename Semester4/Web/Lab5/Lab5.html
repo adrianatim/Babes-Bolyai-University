@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        ul.thumb{
+            margin: 0 auto;
+            padding:  0;
+            display: flex;
+        }
+
+        ul.thumb li{
+            list-style: none;
+            margin: 0 10px;
+        }
+
+        ul.thumb li img{
+            border: 4px solid #fff;
+            box-shadow: 0 5px 25px grey;
+        }
+
+    </style>
+<body>
+<ul class="thumb">
+    <li><img src="https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d" width="120px" onmouseover="showIt(this.src)" onmouseout="hideIt()"></li>
+    <li><img src="https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg" width="120px" onmouseover="showIt(this.src)" onmouseout="hideIt()"></li>
+    <li><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/smartest-dog-breeds-1553287693.jpg?crop=0.673xw:1.00xh;0.167xw,0&resize=640:*" width="120px" onmouseover="showIt(this.src)" onmouseout="hideIt()"></li>
+    <li><img src="https://i.guim.co.uk/img/media/684c9d087dab923db1ce4057903f03293b07deac/205_132_1915_1150/master/1915.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=14a95b5026c1567b823629ba35c40aa0" width="120px" onmouseover="showIt(this.src)" onmouseout="hideIt()"></li>
+    <li><img src="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2019-07/pic_dog_and_globe_denisfilm_123rf.png?itok=2wfCcgLa" width="120px" onmouseover="showIt(this.src)" onmouseout="hideIt()"></li>
+    <li><img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074__340.jpg" width="120px" onmouseover="showIt(this.src)" onmouseout="hideIt()"></li>
+</ul>
+<br>
+
+<img src="" id="imageshow" style="display: none;">
+
+<script >
+function showIt(imgsrc)
+{
+    document.getElementById('imageshow').src = imgsrc;
+    document.getElementById('imageshow').style.height = "500px";
+    document.getElementById('imageshow').style.width = "550px";
+    document.getElementById('imageshow').style.border = "4px solid #fff";
+    document.getElementById('imageshow').style.boxShadow = " 0 5px 25px grey";
+    document.getElementById('imageshow').style.marginLeft = "auto";
+    document.getElementById('imageshow').style.marginRight = "auto";
+    document.getElementById('imageshow').style.display='block';
+}
+
+function hideIt()
+{
+    document.getElementById('imageshow').style.display='none';
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .highlight {
+                    background:yellow;    
+                    }   
+    </style>
+    <body>
+        <div id="content" >
+            Dogs are considered by many to be man’s best friend, and a lot of us love to wonder about exactly what our loyal and energetic companions are thinking or what they would say to us if they were talking animals. The Texts From Dog Tumblr offers answers to these questions with a modern twist – as the name suggests, the blog is all about the imaginary SMS exchange between a talking dog and his owner.
+
+            October Jones, the blog’s creator (and also the talented blogger behind these clever portrait illustrations), has a knack for capturing the dog language that a pooch might have if they could text and had iPhones. From his manic, repetitive texting in all capital letters to his exuberance and enthusiasm, “Dog’s” texts perfectly capture a typical funny dog’s personality. Most mutt owners have, at one point or another, had to deal with a trashed house or had their pet beg relentlessly for some food. Jones has released a couple of books about Texts From Dogs that you can see here.
+
+            Scroll down to see our compilation of Jones’ funny dog memes below.
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            
+            function getSelectedText() {
+                var txt = '';
+                if (document.getSelection) {
+                    txt = document.getSelection();
+                } 
+                return txt;
+            }
+            
+            function deselectText() {
+                if (document.getSelection) {
+                    txt = document.getSelection().removeAllRanges();
+                }
+            }
+            
+        //g - Perform a global match
+        //i - Perform case-insensitive matching
+        $(document).ready(function() {    
+            $('#content').dblclick(function() {
+                $('.highlight').removeClass('highlight');
+                var t = getSelectedText();
+                var regex = new RegExp(t, "gi");
+                this.innerHTML = this.innerHTML.replace(regex, function() {return "<span class=\"highlight \">" + t + "</span>";});
+                deselectText(); 
+            });
+            
+        });
+        </script>
+    </body>
+</html>

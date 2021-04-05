@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head> 
+    <style>
+        body{
+            position: fixed;
+            right: 350px;
+            left: 350px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .button{
+            border: none;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            font-size: 10px;
+            margin: 6px 4px;
+            cursor: pointer;
+            background-color: #567b95;
+            border: 2px solid #567b95;
+            border-radius: 5%;
+        }
+
+        #button1{
+            position: fixed;
+            right: 438px;
+            top: 0;
+            padding: 9px 14px;
+        }
+
+        #button2{
+            position: fixed;
+            right: 370px;
+            top: 0;
+            padding: 9px 9px;
+        }
+
+        #nyt{
+            position: fixed;
+            top: 38px;
+            left: 740px;
+        }
+
+        .verticalLine{
+            position: fixed;
+            height: 50px;
+            border-left: 1px solid rgb(170, 169, 169);
+            top: 155px;
+            opacity: 30%;
+        }
+
+        #line1{
+            left: 750px;
+        }
+
+        #line2{
+            left: 1190px;
+        }
+
+        #line3{
+            top: 240px;
+            height: 330px;
+            left: 600px;
+        }
+
+        #line4{
+            top: 240px;
+            height: 330px;
+            right: 600px;
+        }
+
+        #line5{
+            top: 600px;
+            height: 400px;
+            left: 750px;
+        }
+
+        #line6{
+            top: 600px;
+            height: 500px;
+            right: 650px;
+        }
+
+        .miniNews{
+            font-size: 13.5px;
+            position: fixed;
+            top: 155px;
+        }
+
+        #news1{
+            left: 780px;
+        }
+
+        #news2{
+            left: 1200px
+        }
+
+        .hr1{
+            border-top: 4px double black;
+        }
+
+        .spaceBetweenLines{
+            color: gray;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style: none; /* Remove default bullets */
+            }
+
+                ul li::before {
+                content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                color: gray; /* Change the color */
+                font-weight: bold; /* If you want it to be bold */
+                display: inline-block; /* Needed to add space between the bullet and the text */
+                width: 1em; /* Also needed for space (tweak if needed) */
+                margin-left: -1em; /* Also needed for space (tweak if needed) */
+                }
+        
+        .horizontalLine{
+            position: fixed;
+            border-top: 1px solid rgb(170, 169, 169);
+            width: 350px;
+            height: 1px;
+            opacity: 30%;
+        }
+
+        #hline1{
+            top: 750px;
+        }
+
+        #hline2{
+            top: 870px;
+        }
+
+    </style>
+
+<body>
+    <span style="font-size: 30px; top:10px;">&#x2261; &nbsp;&nbsp;</span>
+    <span><img src="https://media.istockphoto.com/vectors/magnifying-glass-vector-icon-vector-id1033689318?k=6&m=1033689318&s=170667a&w=0&h=I0YJ_ucfsihj2ltIoLTuPYlcJ9HipxMnPbJ4-n3TktY=" style= "width:30px; height:30px"></span>
+    <span style="font-size: 10px; position: fixed; left: 820px; top: 10px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>U.S.&nbsp; &nbsp; &nbsp;</b>INTERNATIONAL&nbsp; &nbsp; &nbsp;CANADA&nbsp; &nbsp; &nbsp;ESPAÑOL&nbsp; &nbsp;  &nbsp;中文</span>
+    <div><button class="button"  id="button1">SUBSCRIBE NOW</div>
+    <div><button class="button" id="button2">LOG IN</button>
+    
+    <span style="font-size: 12px; position: fixed; top: 55px"><b>Saturday, March 13, 2021</b></span>
+    <span style="position: fixed; right: 450px; top: 50px "><img src="clouds.png" width="30px" height="28"></span>
+    <span style="position: fixed; right: 375px; font-size: 12px; top: 55px"><b>3°C</b>&nbsp; &nbsp; &nbsp;3° -2°</span>
+    <div id="nyt" >
+        <img src="https://ed.stanford.edu/sites/default/files/news_source/newyorktimes_logo.png" height="60px" width="430px">
+    </div>
+
+    <br>
+    <span style="font-size: 12px;">Today's Paper</span>
+    <span style="position: fixed; right: 375px; font-size: 13px; top: 75px;">Dow &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: green;">&nbsp; &nbsp; +0,9% &uarr;</span></span>
+    
+    <br>
+    <br>
+    <hr style="opacity: 30%;">
+    <span style="position: fixed; right: 400px; left: 420px; font-size: 13px;">World &nbsp; &nbsp; &nbsp;&nbsp;U.S. &nbsp; &nbsp; &nbsp;&nbsp;Politics &nbsp; &nbsp; &nbsp;&nbsp;N.Y. &nbsp; &nbsp; &nbsp;&nbsp;Business &nbsp; &nbsp; &nbsp;&nbsp;Opinion
+            &nbsp; &nbsp; &nbsp;&nbsp;Tech &nbsp; &nbsp; &nbsp;&nbsp;Science &nbsp; &nbsp; &nbsp;&nbsp;Health &nbsp; &nbsp; &nbsp;Sports &nbsp; &nbsp; &nbsp;Arts &nbsp; &nbsp; &nbsp;&nbsp;Books &nbsp; &nbsp; &nbsp;&nbsp;Style
+            &nbsp; &nbsp; &nbsp;&nbsp;Food &nbsp; &nbsp; &nbsp;&nbsp;Travel &nbsp; &nbsp; &nbsp;&nbsp;Magazine &nbsp; &nbsp; &nbsp;&nbsp;T Magazine &nbsp; &nbsp; &nbsp;&nbsp;Real Estate &nbsp; &nbsp; &nbsp;&nbsp;Video</span>
+
+    <br>
+    <hr>
+
+    <div class="miniNews">
+        <img src="img1.jpg" width="45px" height="45px">
+        <b style="position: fixed; top: 150px;">&nbsp; Great Listens for Your Weekend</b>
+        <p style="position: fixed; left: 410px; top: 150px">Do we owe female pop stars an apology? Did we miss<br> 
+        signs in Woody Allen's "Manhattan"?</p>
+    </div>
+    <div class="verticalLine" id="line1"></div>
+
+    <div class="miniNews" id="news1">
+        <img src="img2.jpg" width="45px" height="45px">
+        <b style="position: fixed; top: 150px;">&nbsp; The Return of 'Still Processing'</b>
+        <p style="position: fixed; left: 833px; top: 150px">The juiciest group chat is back for a new season. Listen<br>
+            to the trailer.
+    </div>
+    <div class="verticalLine" id="line2"></div>
+
+    <div class="miniNews" id="news2">
+        <img src="img3.png" width="60px" height="45px">
+        <b style="position: fixed; top: 150px;">&nbsp; Got a Confidential News Tip?</b>
+        <p style="position: fixed; left: 1265px; top: 150px">The Times would like to hear from readers who want to<br>
+            share messages and materials with our journalists.
+    </div>
+
+    <br><br><br>
+    <hr class="hr1">
+
+    <div style="font-size: 14px; position: fixed; top: 240px">
+        <b style="font-size: 20px;"> Abuse, Neglect and a<br>
+            5-Star Rating: How<br>
+            U.S. Nursing Homes<br>
+            Game the System<br></b>
+        <ul  class="spaceBetweenLines" style="position: fixed; left: 320px;">
+            <li>The facilities have manipulated<br>
+                the government’s influential star<br>
+                ratings in ways that have masked<br>
+                deep problems — and left them<br>
+                unprepared for Covid-19.</li>
+            <li>A Times investigation found<br>
+                unaudited data, undisclosed falls,<br>
+                overstated hours and cases of<br>
+                abuse, including rape, classified<br>
+                as low-level violations.</li>
+    </div>
+    <div class="verticalLine" id="line3"></div>
+
+    <div style="font-size: 15px; position: fixed; top: 240px; left: 620px">
+        <b style="font-size: 17px;">Despite Encouraging Downward<br>
+            Trend, U.S. Covid Deaths Remain<br>
+            High</b>
+        <p style="color: gray;">Nearly 1,500 people are dying of<br>
+            Covid-19 every day in the United<br>
+            States, a number that is lower than<br>
+            the peaks but exceeds the highest<br>
+            rate in July.</p>
+    </div>
+    <div style="position: fixed; left: 870px;">
+        <img src="img4.png" width="450px" height="310px">
+    </div>
+    <div class="verticalLine" id="line4"></div>
+
+    <div style="font-size: 15px; position: fixed; top: 240px; right: 350px;">
+        <b style="font-size: 17px;">‘I’d Much Rather Be in Florida’</b>
+        <p style="color: gray;">Floridians are out and about and<br>
+            pandemic restrictions have been<br>
+            lifted. There’s just one problem:<br>
+            The virus never went away.<br></p>
+        <hr width="225px" style="opacity: 30%;">
+        <b style="font-size: 13px; color: darkred">LIVE</b><br>
+        <b style="font-size: 16px;">Taiwan, a Covid-19 Outlier, Is<br>
+            Selling Life Without Fear of the<br>
+            Virus</b>
+        <p style="color: gray;">The island has seen just 10 Covid<br>
+            -19 deaths and fewer than 1,000<br>
+            cases, and those who can enter<br>
+            are coming in droves. Here’s the<br>
+            latest on the pandemic.</p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr style="opacity: 30%;">
+    
+    <div style="font-size: 15px; position: fixed; top: 600px">
+        <b style="font-size: 20px;">Can the World Learn From<br>
+            South Africa’s Vaccine Trials?</b>
+        <p style="color: gray;">
+            The story of how scientists uncovered the<br>
+            coronavirus variant in South Africa has put a<br>
+            spotlight on the global trials that were key in<br>
+            warning the world.
+        </p>
+        <div class="horizontalLine" id="hline1"></div>
+        <br>
+        <b style="font-size: 18px;">Anguish, Determination, Hope: Travel Workers<br>
+            Despair a Lost Year</b>
+        <p style="color: gray;">Six travel and hospitality employees from around the<br>
+            world share how prolonged shutdowns have upended<br>
+            their lives.</p>
+        <b style="font-size: 18px;">U.S. air travel is rising fast, with 1.357 million<br>
+            people passing through airports on Friday. Catch<br>
+            up on pandemic news.</b>
+        <div class="horizontalLine" id="hline2"></div>
+    </div>
+    <div class="verticalLine" id="line5"></div>
+
+    <div style="position: fixed; left: 760px; top: 600px">
+        <img src="img5.jpg" height="300px" width="500px">
+        <b style="position: fixed; top: 900px; left:760px; font-size: 18px;">‘I’d Much Rather Be in Florida'</b>
+        <p style="font-size: 15; color: gray;">Floridians are out and about and pandemic<br>
+            restrictions have been lifted. There’s just<br>
+            one problem: The virus never went away.
+        </p>
+    </div>
+    <div class="verticalLine" id="line6"></div>
+
+    <div style="position: fixed; top: 580px; right: 330px">
+        <p style="font-size: 18px;">Opinion<br></p>
+        <video width="280px" height="160px" controls autoplay>
+        <source src="https://int.nyt.com/data/videotape/finished/2021/03/1615385494/covidoneyear-640w.mp4"></video>
+        <br>
+        <b style="font-size: 20px; text-align: center;">&nbsp;  &nbsp;The Week Our Reality Broke</b>
+        <p style="font-size: 15px; color: gray; text-align: center;">A year ago, we learned that everything was about<br>
+            to change. For a brief moment, it felt like we were<br>
+            all in this together. What happened?</p>
+    </div>
+
+</body>
+</html>
