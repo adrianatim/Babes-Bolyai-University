@@ -51,6 +51,11 @@
           :green_book: Web Programming
         </a>
        </li>
+       <li>
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester4/AI">
+          :green_book: Artificial Intelligence
+        </a>
+       </li>
     </ul>
   </li>
 </ul>
