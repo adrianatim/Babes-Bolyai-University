@@ -1,0 +1,64 @@
+<title>Welcome</title>
+<body>
+<div style="font-size: 16px"> Here you can ADD, UPDATE or REMOVE a Record!</div>
+    <div style="font-size: 16px"> Or you can browse between Records!</div>
+    <br>
+<div>
+	<button class="button button1" (click) = setAddPanel()>Add Record</button>
+	<button class="button button1" (click) = setUpdatePanel()>Update Record</button>
+	<button class="button button1" (click) = setRemovePanel()>Remove Record</button>
+</div>
+<div><button class="button button1" (click) = setBrowsePanel()>BROWSE</button></div>
+
+<div *ngIf="addPanel">
+    <br><br>
+    <label>Url</label><br>
+    <input [(ngModel)]="site.Url"/><br>
+    <label>Description</label><br>
+	<input [(ngModel)]="site.Description"/><br>
+    <label>Category</label><br>
+	<input [(ngModel)]="site.Category"/><br><br><br>
+    <button class="button button1" (click) = addSite()>Add</button><br>
+</div>  
+
+<div *ngIf="removePanel">
+    <br><br>
+	<label>Category:</label><br>
+    <input [(ngModel)]="site.Category"/><br><br><br>
+	<button class="button button1" (click) = removeSite()>Remove</button><br>
+</div>
+
+<div *ngIf="updatePanel">
+    <br><br>
+    <label>Url</label><br>
+    <input [(ngModel)]="site.Url"/><br>
+    <label>Description</label><br>
+    <input [(ngModel)]="site.Description"/><br>
+    <label>Category</label><br>
+    <input [(ngModel)]="site.Category"/><br><br><br>
+    <button class="button button1" (click) = updateSite()>Update</button><br>
+</div>
+
+<div *ngIf="browsePanel">
+	<br><br>
+	<table class="center">
+		<tr>
+			<th>Url</th>
+			<th>Description</th>
+			<th>Category</th>
+		</tr>
+		<tr *ngFor="let site of sites">
+			<td>{{site.Url}}</td>
+			<td>{{site.Description}}</td>
+			<td>{{site.Category}}</td>
+		</tr>
+	</table>
+	<button class="button button1" (click) = previousPage()>Prev</button>
+	<button class="button button1" (click) = getSites()>Sort</button>
+	<button class="button button1" (click) = nextPage()>Next</button><br>
+	<label style="margin-left: 25%">Page {{pageNumber}}</label><br>
+	<label>Category</label><br>
+    <input [(ngModel)] ="categoryToSort"/>
+</div>
+
+</body>
