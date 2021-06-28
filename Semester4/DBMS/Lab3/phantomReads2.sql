@@ -1,0 +1,5 @@
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+BEGIN TRAN
+	delete examiner where eName='phantomReads';
+COMMIT TRAN

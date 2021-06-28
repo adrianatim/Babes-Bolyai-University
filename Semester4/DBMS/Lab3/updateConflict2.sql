@@ -1,0 +1,7 @@
+ALTER DATABASE DrivingSchoolDB  
+SET ALLOW_SNAPSHOT_ISOLATION ON
+
+SET TRANSACTION ISOLATION LEVEL SNAPSHOT
+BEGIN TRAN
+	update examiner set eName = 'newUpdateConflict' where eId = 1;
+COMMIT TRAN
