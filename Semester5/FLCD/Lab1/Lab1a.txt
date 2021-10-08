@@ -1,0 +1,49 @@
+ex.1) Compute the max of 3 numbers
+Solution:
+
+declare int a, b c;
+if(a>b AND a>c){
+   print(a);
+}
+elif(b>a AND b>c){
+   print(b);
+}
+elif(c>b AND c>a){
+   print(c);
+}
+
+ex.2) Verify if the number is prime
+Solution:
+
+declare int a;
+declare boolean isPrime;
+for(increase by 1; i=2,a/2){
+  if(a mod i == 0){
+       isPrime=False;
+  }
+}
+isPrime=True;
+print(isPrime);
+
+ex.3) Compute the sum of n numbers
+Solution:
+
+declare numbers[n] of int;
+declare int sum=0;
+for(increase by 1; i=1,n){
+   sum = sum + numbers[i];
+}
+print(sum);
+
+ex.4) Lexical error in ex.2
+Solution:
+
+declare int 1a;
+declare boolean isPrime;
+for(increase by 1; i=2,1a/2){
+  if(1a mod i == 0){
+       ~isPrime='False';
+  }
+}
+isPrime='True';
+print(isPrime);
