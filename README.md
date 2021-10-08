@@ -61,6 +61,13 @@
 </ul>
 <ul>
   <li>:open_file_folder: Semester 5
+    <ul>
+      <li>
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester5/FLCD">
+          📘 Formal Languages and Compiler Design
+        </a>
+       </li>
+    </ul>
   </li>
 </ul>
 
