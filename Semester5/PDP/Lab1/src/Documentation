@@ -1,0 +1,28 @@
+Classes:
+Product: contains - the type of the product (ex. milk, chocolate...)
+                  - the quantity of the product bought
+                  - the unit price for one product
+
+Bill: contains - a list of products only of type Product
+               - the total price of the bill which is computed from the begging of the shopping
+Main: contains - the main function which operates in this way
+      1) we populate the Product List with products that we want to be bought by the threads
+      2) start a no of threads, by creating instances of type Thread which contains instances of Multithreading class
+      3) wait for the threads to end, so we have the sleep function of 3000 milliseconds
+      4) at the final execution we check if the amount of money are justified or not
+               - the check function
+      which is supposed to recompute the price of all the bills made by every thread and then to check and print if the
+      money are justified or not
+
+Multithreading: contains - the synchronized run function
+      1) generate a random number of products that we want to buy (in total)
+      2) randomly choose the product from the list and the number of product quantity that we want to buy
+      3) check if the quantity that we want to buy for a specific product is available (if the shop has enough food stock)
+      4) we add the bought Product to the list for the bills, and update the quantity number of the product, because after
+       a thread bought a no of products the stock for that product will decrease
+
+Time consuming:
+-10 threads : 7 milliseconds
+-100 threads : 13 milliseconds
+-1000 threads : 131 milliseconds
+-10000 threads: 2214 milliseconds

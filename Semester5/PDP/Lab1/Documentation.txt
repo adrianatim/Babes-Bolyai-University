@@ -1,0 +1,17 @@
+This program uses 4 main clases (Product, Bill, Main , Multithreading).
+
+The Product class contains a type, a quantity and a price per unit.
+
+The Bill class contains a list of sold products, and it automatically calculates the total price of those products in the constructor.
+
+In the main function , first we populate the list of products , then we generate a number of threads and we launch them. After the execution of all threads, we check if the money are
+justified.
+
+Multithreading class implements Runnable and inherits Main so that it can access the list of products, bills and the money spent for each transaction.
+In the run function we first initialise an empty list of sold products , then we generate a random number of products for each thread to buy. We extract a random product from the list of products,
+we check if we have enough quantity, if so, we add it to the list of sold products and we update the quantity of that product (decrease). 
+Before the thread to finish its execution, we add to the list of bills a new bill with the corresponding sold products and we check from time to time if the money are justified.
+
+This program works with large number of threads (2000 last checked). Regarding the time execution of each thread , I tried to make the difference between startTime and endTime, values obtained 
+using the java.lang.System.currentTimeMillis() function. After performing the difference I obtained negative values , this being the reason I stopped measuring the time performance for each thread.
+ 
