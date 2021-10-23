@@ -72,6 +72,11 @@
           📘 Mobile Application
         </a>
       </li>
+      <li>
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester5/HCI">
+          📘 Human-Computer Interaction
+        </a>
+      </li>
     </ul>
   </li>
 </ul>
