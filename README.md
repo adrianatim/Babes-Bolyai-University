@@ -69,7 +69,12 @@
       </li>
       <li>
         <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester5/MA">
-          📘 Mobile Application
+          📘 Mobile Applications
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester5/PDP">
+          📘 Parallel and distributed programming
         </a>
       </li>
       <li>
