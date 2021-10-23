@@ -66,7 +66,12 @@
         <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester5/FLCD">
           📘 Formal Languages and Compiler Design
         </a>
-       </li>
+      </li>
+      <li>
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester5/MA">
+          📘 Mobile Application
+        </a>
+      </li>
     </ul>
   </li>
 </ul>
