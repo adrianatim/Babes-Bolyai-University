@@ -1,0 +1,8 @@
+start :
+declare int numbers [10] ;
+declare int sum = 0 ;
+for ( increase by 1 ; i = 1 , 10 ) {
+sum = sum + numbers [i] ;
+}
+print ( sum ) ;
+end .
