@@ -1,0 +1,11 @@
+start :
+declare int a ;
+declare boolean isPrime ;
+for ( increase by 1 ; i = 2 , a / 2 ) {
+if ( a mod i == 0 ) {
+isPrime = False ;
+}
+}
+isPrime = True ;
+print ( isPrime ) ;
+end .
