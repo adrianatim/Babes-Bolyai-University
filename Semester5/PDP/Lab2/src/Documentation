@@ -1,0 +1,11 @@
+Documentation:
+
+Classes:
+Main - contains only the method main and inside it we initialize 2 threads, one is supposed to produce and one to consume
+ProducerConsumer - contain 3 methods:
+            1. generateVectors() where it generates random numbers for no. of times and put them in 2 different lists
+            2. produce() - takes the first value from each vector,
+                           it will multiply them,
+                           and then the result will be added to a queue
+                           notify the other threads to wake them up
+            3. consume() - take the value from the queue and add it to a global variable which increases each time
