@@ -1,0 +1,19 @@
+Documentation Lab4
+
+Classes:
+fa.FileReader - contains method readFromFile(filename) which returns a list of all lines form the given file
+
+fa.FiniteAutomata - a class that has all the logic of an FA
+                private:
+               - assignValuesFromFileToTheParameters() it is a private method that takes the value from a list of strings,
+               which is the content of a file, and assigned those values to the declared fields
+               - initializeLists(array, list) method which adds the values from string, if the length is 1, to the list
+               - isFinalState(state) returns true if the state is final state, or false otherwise
+               - isDFA() returns true if all the transition are valid (value is different form null)
+               public:
+               - getters for all the fields
+               - verifyIfTheFAIsAccepted(sequence) method verifies if the given sequence is accepted as FA, we iterate
+               through the sequence and see if we have a value at the position(currentState, first character of the sequence)
+               we have a path from a node to another; currentState is first the initial state and then is the next node
+
+Main - is the main class and has the main method where there is a menu with all the information about the FA
