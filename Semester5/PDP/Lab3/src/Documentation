@@ -1,0 +1,67 @@
+Documentation - Lab3
+
+classes:
+
+entity.Matrix - is a container for storing a matrix
+              - contains the no of rows and the no of columns of the matrix
+              - populate() method where we populate the matrix with random numbers from 0 to 9
+              - getters for the row and column
+              - get(row, column) for the exact value from the matrix at a given position
+              - set(row, column, value) for setting the value at an exact position from the matrix
+              - toString() for better looking
+
+strategy.Threads - it is an enum class which contains ROW, COLUMN and K for separating each method from another
+strategy.ThreadStrategy - it's also an enum class containing CLASSIC and THREAD_POOL for separating this two methods
+
+operation.ComputeSingleElement - a class which contains a single method named computeElement() and has the scope to
+                                compute the value for a specific position from the result matrix
+                               - the method is multiplying the first element from a given row with the first element from
+                               the given position and so on, and the result of each multiplication is added to a variable
+                               and returned
+operation.MatrixThread - an abstract class which extends the Thread class
+                       - contains two constructors, one for the RowThread and ColumnThread and one for the KThread, the
+                       only difference is that the one for the KThread contains also the no of threads, in which the task
+                        is split
+                       - contains an abstract method populate() which is overrode by each class which extends this class
+                       - contains method run() where we fulfil the final matrix with the result of the multiplication of
+                       the given matrices; the entire process is made using the computeElement() function from the
+                       ComputeSingleElement class
+operation.RowThread - contains a constructor and overrides the populate() function from the super class (MatrixThread)
+                    - in the populate() method we add (total no of elements divided by the no of threads) values in the
+                    result Matrix starting from the given row and column, by advancing column after column, and ending
+                    when we already added the given no of elements
+operation.ColumnThread - contains a constructor and overrides the populate() function from the super class (MatrixThread)
+                    - in the populate() method we add (total no of elements divided by the no of threads) values in the
+                    result Matrix starting from the given column and row, by advancing row after row, and ending when we
+                    already added the given no of elements
+operation.KThread - contains a constructor which contains the no of threads and overrides the populate() function from
+                  the super class (MatrixThread)
+                  - in the populate() method we add given no of values in the result matrix by taking the row be the sum
+                  of the current column and the no of threads all divided by the total no of columns and the column to be
+                  the same sum mod the total no of columns
+
+main.Main - is the principal class where all the union between classes is done
+          - contains:
+                    1.getStartingIndexesAndNoOfElement(matrix, index) - function that get the starting row index, column
+                      index and the no of values that needs to be determined for the result matrix
+                    2.createRowThread(matrix1, matrix2, matrix3, index) - function that creates a new thread of type RowThread
+                      and gets the elements with the help of getStartingIndexesAndNoOfElement()
+                    3.createColumnThread(matrix1, matrix2, matrix3, index) - function that creates a new thread of type
+                      ColumnThread and gets the elements with the help of getStartingIndexesAndNoOfElement()
+                    4.createKthThread(matrix1, matrix2, matrix3, index) - function that get the  starting row index, column
+                      index and the no of values for creating a new thread of type KThread
+                    5.createEachThreadForEachTask(matrix1, matrix2, matrix3) - a function that verifies what method we
+                    want to use (ROW, COLUMN, K) and by case, it will create new threads of that type; after that the
+                    threads will start and then join to wait until every thread is finished; in the end, a print of the
+                    final matrix
+                    6.createThreadPool(matrix1, matrix2, matrix3) - a function that verifies what generation thread we
+                    want to use (ROW, COLUMN, K) and by case, it will submit to the executorService threads of that type;
+                    after that the executorService is shouted done and in the end we print the result matrix
+                    7.createGenerationStrategy(matrix1, matrix2, matrix3) -  a function that verifies what generation strategy
+                    we want (THREAD_POOL, CLASSIC) and call createThreadPool() function or createEachThreadForEachTask()
+
+Time taken for matrices 9x9:
+    Classic                     Thread Pool
+rowThread: 0.0065956s       rowThread: 0.0133483s
+columnThread: 0.003894099s  columnThread: 0.0154201s
+KThread: 0.0052011s         KThread: 0.0053677s
