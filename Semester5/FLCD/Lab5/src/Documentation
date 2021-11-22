@@ -1,0 +1,11 @@
+Documentation – Lab5 (Adriana Timis si Alessando-Gabriel Sustic)
+Classes:
+Grammar  – readFromFile(filename) is a method that reads lines from a file line by line
+-	getForASpecificNonTerminal(nonTerminal) a method that returnes the productions of a given non terminal
+-	getters for all fields
+-	validateStartingSymbol() a method which verifies if the startingSymbol is in the productions map, if not throws Exception
+-	validateProductions() a method which verifies if the key of every production is a nonTerfinal, if not throws Exception
+-	initializeFields() is a private method called in the constructor with the scope of initializing all the fields with the values from files
+-	eraseDelimiter(list of values) a private method which erases the character “|”
+Main  – main class
+-	contains a menu where we can display nonTerminals, terminals, starting Symbol and the production, but firstly we verify if it is a Contex Free Grammar
