@@ -1,0 +1,53 @@
+Documentation Lab5-6-7
+
+domain.GrammarModel - a class which stores each value for a given grammar (terminals, nonTerminals, productions, initialNonTerminal)
+domain.Production - a class which stores the given nonTerminal and a list of production rules and have a method toString()
+                  for easily following the terminals of a given terminal
+domain.ParsingState - an enum class where there are the states of the parsing (q, b, f, e)
+domain.DescendentConfiguration - a class which stores the initial configuration for the recursive descendent parsing
+domain.NonTerminalAndProduction - a class that stores the given nonTerminal and the current index
+domain.NonTerminalParentIndex - a class which stores an instance of the NonTerminalAndProduction, the current index and parent
+domain.TableModel - a class which stores the values of a table (index, info, parentIndex, leftIndex)
+
+service.Menu - a class which contains the manu of this application, you can see the details about the grammar found in
+             the g1.txt file and you can see if a sequence is accepted by parsing through it using recursive descendent
+             method
+service.GrammarReader - a class that reads form a file and initialize the grammar found and in the same time it verifies
+                      if the grammar is CFG or not
+service.Operations - a class which contains all the operation that can be done in the recursive descendent parsing
+                   - expend() WHEN: head of input stack is a nonTerminal; moving the nonTerminal head from the input
+                   stack to the head of working stack
+                   - advance() WHEN: head of input stack is a terminal = current symbol from input; moving the terminal
+                   head from the input stack to the head of working stack and the we go to the next symbol from the sequence
+                   - momentaryInsuccess() WHEN: head of input stack is a terminal ≠ current symbol from input; only the
+                   state of the parsing is changed to BACK_STATE (b)
+                   - goBack() WHEN: head of working stack is a terminal; decreasing the current position and getting the
+                   head of the working stack to the head of the input stack
+                   - anotherTry() WHEN: head of working stack is a nonTerminal
+			-> case 1 : when there are productions remained 
+               			- get the next production
+                		- pop element from working stack
+                		- pop elements from input stack for each production rule from the current production
+                		- from each production rule with index (0 , nextProduction.getProductionRule().size() - 1) we create the current terminal and we push it
+             			into the input stack
+                		- set parsing state to NORMAL_STATE
+  			->  case 2 : there are no productions left
+                		- pop elements from input stack for each production rule from the current production
+                		- push into the input stack the nonTerminal
+                		- pop the element from the working state
+                		- set parsing state to BACK_STATE
+  			->  case 3 : reached initial non terminal or the input index became 0
+                		- set the parsing state to ERROR_STATE
+                		- pop the element from input stack
+
+                   - success() WHEN: the input stack is empty; only the state of the parsing is changed to FINAL_STATE (f)
+                   - OperationChecker class where there are the following methods:
+   			- canAdvance() : check if the element pop from the input stack is equal with the next non terminal
+   			- canExpand() : check if the list of non terminals contains the next element from the input stack
+   			- canGoBack() : check if the last element from the working stack is an instance of String type
+   			- canSuccess() : check if the input stack is empty or the input index reached the sized of the input stack
+service.DescendentRecursiveParser - a class that contains the grammar and the input sequence that needs to be verified
+                                   and in the constructor is initialize the "initial configuration" and in the method
+                                   runParser() is implemented the algorithm
+service.TableBuilder - is a class which contains the grammar used and the working stack
+                     -
