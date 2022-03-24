@@ -82,7 +82,7 @@
     <ul>
       <li>
          <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester6/NC">
-          Numerical Calculus
+          &#128213 Numerical Calculus
         </a>  
       </li>
     </ul>
