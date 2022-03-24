@@ -1,13 +1,5 @@
 # BBU
 <ul>
-  <li>:open_file_folder: Semester 1
-    </ul>
-  </li>
-<ul>
-  <li>:open_file_folder: Semester 2
-    </ul>
-  </li>
-<ul>
   <li>:open_file_folder: Semester 3
     <ul>
       <li>
@@ -81,6 +73,17 @@
         <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester5/HCI">
           📘 Human-Computer Interaction
         </a>
+      </li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li>:open_file_folder: Semester 6
+    <ul>
+      <li>
+        <a herf="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester6/NC">
+          Numerical Calculus
+        </a>  
       </li>
     </ul>
   </li>
