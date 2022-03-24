@@ -81,7 +81,7 @@
   <li>:open_file_folder: Semester 6
     <ul>
       <li>
-        <a herf="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester6/NC">
+         <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester6/NC">
           Numerical Calculus
         </a>  
       </li>
