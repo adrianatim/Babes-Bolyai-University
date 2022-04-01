@@ -90,6 +90,11 @@
            &#128213 Design Patterns
         </a>
       </li>
+      <li>
+        <a herf="https://github.com/adrianatim/VVSS">
+          &#128213 Software Systems Verification and Validation
+        </a>
+      </li>
     </ul>
   </li>
 </ul>
