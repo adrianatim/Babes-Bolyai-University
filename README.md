@@ -91,6 +91,11 @@
         </a>
       </li>
       <li>
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester6/BI">
+           &#128213 Business Intelligence
+        </a>
+      </li>
+      <li>
         <a herf="https://github.com/adrianatim/VVSS">
           &#128213 Software Systems Verification and Validation
         </a>
