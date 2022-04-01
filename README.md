@@ -85,6 +85,11 @@
           &#128213 Numerical Calculus
         </a>  
       </li>
+      <li>
+        <a href="https://github.com/adrianatim/Babes-Bolyai-University/tree/main/Semester6/DP">
+           &#128213 Design Patterns
+        </a>
+      </li>
     </ul>
   </li>
 </ul>
